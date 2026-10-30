@@ -1,0 +1,19 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "A small project dedicated to teachers for generating natural-sounding voices for their lectures."
+readme = "README.md"
+authors = [
+    { name = "richard-vu", email = "richardvu.work@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "alembic>=1.20.1",
+    "edge-tts>=7.3.1",
+    "fastapi[standard]>=0.162.0",
+    "googletrans>=4.0.2",
+    "loguru>=0.7.3",
+    "sqlalchemy[asyncio]>=2.1.6",
+]
+

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "mightbesimon.emoji-icons",
+    "esbenp.prettier-vscode"
+  ]
+}

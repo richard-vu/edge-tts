@@ -1,0 +1,19 @@
+# Git
+.git
+.gitignore
+
+# Virtual environment & Python cache
+.venv
+__pycache__/
+*.py[oc]
+*.egg-info
+dist/
+build/
+
+# Local environment files and SQLite data (mounted via volume)
+.env*
+data/
+*.db
+*.sqlite
+*.sqlite3
+

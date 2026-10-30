@@ -1,0 +1,13 @@
+name: edge-tts
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: edge-tts-frontend
+    restart: always
+    ports:
+      - "9101:80"
+    env_file:
+      - .env.pro
